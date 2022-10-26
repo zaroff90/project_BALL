@@ -1,0 +1,29 @@
+Version 1.2.1
+=============
+Fix: several gameplay bugs fixed
+New: gameplay improved
+
+Version 1.2.0
+=============
+Fix: doesnt crash in device when you dont have Unity Pro license
+Fix: pass behaviour fixed in Touch Controls
+
+Version 1.1.0
+=============
+Fix: Pass flickering during receiving ball
+Fix: Strange bahavior in pass and stoleing ball to oponent
+New: UI totally new taking advantage of new Unity 4.6 UI
+New: Automatic pass selection form side-line
+New: Tag Players Name sensitive to distance
+
+Version 1.0.1
+=============
+
+Fix: Pass and Shoot button fixed problems in D-Pad Behaviour
+Fix: Tweaked camera interpolation
+New: Scene to train season without oponents
+
+Version 1.0
+=============
+
+Initial release.

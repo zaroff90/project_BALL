@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 61fb924c0b2f44b1288f38341178ea83
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Canasta
+    100002: Canasta1
+    100004: //RootNode
+    100006: directionalLight1
+    100008: grada
+    100010: grada3
+    100012: grada4
+    100014: Ground
+    100016: LineasCancha
+    100018: pCube10
+    100020: pCube11
+    100022: pCube12
+    100024: pCube6
+    100026: pCube8
+    100028: pCube9
+    100030: pCylinder1
+    100032: pCylinder2
+    100034: polySurface2
+    100036: polySurface3
+    100038: pPlane1
+    400000: Canasta
+    400002: Canasta1
+    400004: //RootNode
+    400006: directionalLight1
+    400008: grada
+    400010: grada3
+    400012: grada4
+    400014: Ground
+    400016: LineasCancha
+    400018: pCube10
+    400020: pCube11
+    400022: pCube12
+    400024: pCube6
+    400026: pCube8
+    400028: pCube9
+    400030: pCylinder1
+    400032: pCylinder2
+    400034: polySurface2
+    400036: polySurface3
+    400038: pPlane1
+    2300000: Canasta
+    2300002: Canasta1
+    2300004: grada
+    2300006: grada3
+    2300008: grada4
+    2300010: Ground
+    2300012: LineasCancha
+    2300014: pCube10
+    2300016: pCube11
+    2300018: pCube12
+    2300020: pCube6
+    2300022: pCube8
+    2300024: pCube9
+    2300026: pCylinder1
+    2300028: pCylinder2
+    2300030: polySurface2
+    2300032: polySurface3
+    2300034: pPlane1
+    3300000: Canasta
+    3300002: Canasta1
+    3300004: grada
+    3300006: grada3
+    3300008: grada4
+    3300010: Ground
+    3300012: LineasCancha
+    3300014: pCube10
+    3300016: pCube11
+    3300018: pCube12
+    3300020: pCube6
+    3300022: pCube8
+    3300024: pCube9
+    3300026: pCylinder1
+    3300028: pCylinder2
+    3300030: polySurface2
+    3300032: polySurface3
+    3300034: pPlane1
+    4300000: Ground
+    4300002: pCube6
+    4300004: Canasta
+    4300006: LineasCancha
+    4300008: pCylinder1
+    4300010: pCube8
+    4300012: polySurface2
+    4300014: pPlane1
+    4300016: grada3
+    4300018: grada
+    4300020: grada4
+    4300022: Canasta1
+    4300024: pCylinder2
+    4300026: pCube9
+    4300028: pCube10
+    4300030: pCube11
+    4300032: pCube12
+    4300034: polySurface3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
