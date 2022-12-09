@@ -97,10 +97,14 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        int idp1 = 0;
+        int idp2 = 0;
+
         if (PhotonNetwork.IsConnected)
         {
-            player1.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(01));
-            player2.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(02));
+            Debug.Log(PhotonNetwork.LocalPlayer.ActorNumber);
+            player1.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(1));
+            player2.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(2));
         }
         Physics2D.gravity = new Vector2(0, -20f);
 
@@ -191,7 +195,7 @@ public class GameManager : MonoBehaviour
         }
         else if (gameMode == GameMode.SLOWMOTION)
         {
-            DoSlowmotion();
+            //DoSlowmotion();
         }
 
         if (Input.GetKeyDown(KeyCode.Escape) && gameMode != GameMode.END)

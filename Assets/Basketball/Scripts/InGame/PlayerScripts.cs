@@ -129,112 +129,97 @@ public class PlayerScripts : MonoBehaviourPunCallbacks
         if ( _controller.isGrounded )
 			_velocity.y = 0;
 
-        if (!isAi)
+        if (this.photonView.IsMine && PhotonNetwork.IsConnected == true)
         {
-            if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+            if (!isAi)
             {
-                int touchCount = Input.touchCount;
-
-                if (touchCount > 0 && gm.gameMode != GameMode.END)
+                if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
                 {
-                    for (int i = 0; i < touchCount; i++)
+                    int touchCount = Input.touchCount;
+
+                    if (touchCount > 0 && gm.gameMode != GameMode.END)
                     {
-                        if (Input.GetTouch(i).phase == TouchPhase.Began ||
-                            Input.GetTouch(i).phase == TouchPhase.Stationary ||
-                            Input.GetTouch(i).phase == TouchPhase.Moved)
+                        for (int i = 0; i < touchCount; i++)
                         {
-                            RaycastHit2D hit = Physics2D.Raycast(gm.cameraButton.ScreenToWorldPoint(Input.GetTouch(i).position), Vector2.zero);
-
-                            if (hit.collider != null)
+                            if (Input.GetTouch(i).phase == TouchPhase.Began ||
+                                Input.GetTouch(i).phase == TouchPhase.Stationary ||
+                                Input.GetTouch(i).phase == TouchPhase.Moved)
                             {
-                                if (hit.collider.gameObject.name.Contains("RightBtn"))
-                                {
-                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
-                                    {
-                                        return;
-                                    }
-                                    MoveRight();
-                                }
-                                else if (hit.collider.gameObject.name.Contains("LeftBtn"))
-                                {
-                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
-                                    {
-                                        return;
-                                    }
-                                    MoveLeft();
-                                }
-                                else
-                                {
-                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
-                                    {
-                                        return;
-                                    }
-                                    Stay();
-                                }
+                                RaycastHit2D hit = Physics2D.Raycast(gm.cameraButton.ScreenToWorldPoint(Input.GetTouch(i).position), Vector2.zero);
 
-                                if (hit.collider.gameObject.name.Contains("JumpBtn"))
+                                if (hit.collider != null)
                                 {
-                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+                                    if (hit.collider.gameObject.name.Contains("RightBtn"))
                                     {
-                                        return;
+                                        MoveRight();
                                     }
-                                    Jump();
-                                }
-                                if (hit.collider.gameObject.name.Contains("ActionBtn") && gm.gameMode != GameMode.END)
-                                {
-                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+                                    else if (hit.collider.gameObject.name.Contains("LeftBtn"))
                                     {
-                                        return;
+                                        MoveLeft();
                                     }
-                                    Action();
+                                    else
+                                    {
+                                        Stay();
+                                    }
+
+                                    if (hit.collider.gameObject.name.Contains("JumpBtn"))
+                                    {
+                                        Jump();
+                                    }
+                                    if (hit.collider.gameObject.name.Contains("ActionBtn") && gm.gameMode != GameMode.END)
+                                    {
+                                        Action();
+                                    }
                                 }
                             }
                         }
                     }
-                }
-                else
-                {
-                    Stay();
-                }
-            }
-            else
-            {
-                if (Input.GetMouseButton(0) && gm.gameMode != GameMode.END)
-                {
-                    RaycastHit2D hit = Physics2D.Raycast(gm.cameraButton.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-
-                    if (hit.collider != null)
+                    else
                     {
-                        if (hit.collider.gameObject.name.Contains("RightBtn"))
-                        {
-                            MoveRight();
-                        }
-                        else if (hit.collider.gameObject.name.Contains("LeftBtn"))
-                        {
-                            MoveLeft();
-                        }
-                        else
-                        {
-                            Stay();
-                        }
-
-                        if (hit.collider.gameObject.name.Contains("JumpBtn"))
-                        {
-                            Jump();
-                        }
-                        if (hit.collider.gameObject.name.Contains("ActionBtn") && gm.gameMode != GameMode.END)
-                        {
-                            Action();
-                        }
+                        Stay();
                     }
                 }
                 else
                 {
-                    Stay();
+                    if (Input.GetMouseButton(0) && gm.gameMode != GameMode.END)
+                    {
+                        RaycastHit2D hit = Physics2D.Raycast(gm.cameraButton.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+                        if (hit.collider != null)
+                        {
+                            if (hit.collider.gameObject.name.Contains("RightBtn"))
+                            {
+                                MoveRight();
+                            }
+                            else if (hit.collider.gameObject.name.Contains("LeftBtn"))
+                            {
+                                MoveLeft();
+                            }
+                            else
+                            {
+                                Stay();
+                            }
+
+                            if (hit.collider.gameObject.name.Contains("JumpBtn"))
+                            {
+                                Jump();
+                            }
+                            if (hit.collider.gameObject.name.Contains("ActionBtn") && gm.gameMode != GameMode.END)
+                            {
+                                Action();
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Stay();
+                    }
                 }
             }
         }
-        else
+
+
+        if (isAi)
         {
             // ai controller
             AiController();
