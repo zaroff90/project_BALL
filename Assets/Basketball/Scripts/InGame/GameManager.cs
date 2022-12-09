@@ -4,6 +4,10 @@ using System.Collections.Generic;
 
 using UnityEngine.SceneManagement;
 
+using Photon.Pun;
+using Photon.Realtime;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
+
 public class GameManager : MonoBehaviour
 {
     public GameObject pauseMenu, gameOverMenu, inGameButton;
@@ -93,6 +97,11 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        if (PhotonNetwork.IsConnected)
+        {
+            player1.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(01));
+            player2.gameObject.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(02));
+        }
         Physics2D.gravity = new Vector2(0, -20f);
 
         lastFixedDeltaTime = Time.fixedDeltaTime;

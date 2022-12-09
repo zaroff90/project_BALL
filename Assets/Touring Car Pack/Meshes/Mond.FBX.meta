@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 46d4aef646446584bb5cec4fb8dacc53
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mond_Carbody
+    100004: Mond_Collision
+    100006: Mond_Hood
+    100008: Mond_Wing
+    100010: Susp_L
+    100012: Susp_R
+    100014: TRV6_Wheel
+    400000: //RootNode
+    400002: Mond_Carbody
+    400004: Mond_Collision
+    400006: Mond_Hood
+    400008: Mond_Wing
+    400010: Susp_L
+    400012: Susp_R
+    400014: TRV6_Wheel
+    2100000: M_Black
+    2100002: M_Carbody
+    2100004: M_Caje
+    2100006: M_Glass
+    2100008: M_Windows
+    2100010: M_Antena
+    2100012: M_Optica
+    2100014: M_Engine
+    2100016: M_Wood
+    2100018: M_Interior
+    2100020: M_Seat
+    2100022: M_Dash
+    2100024: M_Wheel
+    2300000: Mond_Carbody
+    2300002: Mond_Collision
+    2300004: Mond_Hood
+    2300006: Mond_Wing
+    2300008: Susp_L
+    2300010: Susp_R
+    2300012: TRV6_Wheel
+    3300000: Mond_Carbody
+    3300002: Mond_Collision
+    3300004: Mond_Hood
+    3300006: Mond_Wing
+    3300008: Susp_L
+    3300010: Susp_R
+    3300012: TRV6_Wheel
+    4300000: Mond_Collision
+    4300002: Mond_Hood
+    4300004: Mond_Wing
+    4300006: Mond_Carbody
+    4300008: Susp_L
+    4300010: Susp_R
+    4300012: TRV6_Wheel
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Antena
+    second: {fileID: 2100000, guid: c0a909ae5bef4de4581b98bfa4d7b15e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Black
+    second: {fileID: 2100000, guid: 74dc75d335d881c498f6ea0361b6b2cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Caje
+    second: {fileID: 2100000, guid: d5f16d65600a7af42bdeb20af7fc2c1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Carbody
+    second: {fileID: 2100000, guid: 1715bb85d8c12784f8b6aa27effa8253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Dash
+    second: {fileID: 2100000, guid: fe0a2de10fab52946aca02b402474825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Engine
+    second: {fileID: 2100000, guid: 63ed5d5a0af37c34f90f2a09950979f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass
+    second: {fileID: 2100000, guid: 8fc968e2fb340f742999eef5eb0859c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Interior
+    second: {fileID: 2100000, guid: 5d57521e824bc8a44b88f5d78624def9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Optica
+    second: {fileID: 2100000, guid: 39ceb41db46f72645896fb4763c7f1db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Seat
+    second: {fileID: 2100000, guid: f08a67989db3f354fbf29e246b31fec3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wheel
+    second: {fileID: 2100000, guid: a9d0d3ce1f0e6064f82972881d6acf64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Windows
+    second: {fileID: 2100000, guid: af5c27fa6168ffd4dbaa29e29c0df05d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood
+    second: {fileID: 2100000, guid: f59fbd8d8762545439ffa3f08d216130, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: c51e8bf5823dd4566bf12c6b0744a425
+timeCreated: 1456414118
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object015
+    100004: Object021
+    100006: Object022
+    100008: Object023
+    100010: Object024
+    100012: Object025
+    100014: Object037
+    100016: Object038
+    100018: Object039
+    100020: Object040
+    100022: Object041
+    100024: Object042
+    100026: Object043
+    100028: Object044
+    100030: Plane003
+    100032: glass
+    100034: light
+    100036: mirror
+    100038: Object055
+    100040: Object067
+    100042: tube
+    100044: wheel
+    100046: wheel 2
+    100048: Object039_Detached003
+    100050: Object039_Detached004
+    100052: Object039_Detached005
+    100054: Object039_Detached02
+    100056: Object068
+    100058: Object069
+    100060: Object070
+    100062: Object071
+    100064: Object072
+    100066: Object073
+    100068: Object074
+    100070: Object075
+    100072: wheel_Detached002
+    100074: wheel_Detached003
+    100076: wheel_Detached004
+    100078: wheel_Detached01
+    400000: //RootNode
+    400002: Object015
+    400004: Object021
+    400006: Object022
+    400008: Object023
+    400010: Object024
+    400012: Object025
+    400014: Object037
+    400016: Object038
+    400018: Object039
+    400020: Object040
+    400022: Object041
+    400024: Object042
+    400026: Object043
+    400028: Object044
+    400030: Plane003
+    400032: glass
+    400034: light
+    400036: mirror
+    400038: Object055
+    400040: Object067
+    400042: tube
+    400044: wheel
+    400046: wheel 2
+    400048: Object039_Detached003
+    400050: Object039_Detached004
+    400052: Object039_Detached005
+    400054: Object039_Detached02
+    400056: Object068
+    400058: Object069
+    400060: Object070
+    400062: Object071
+    400064: Object072
+    400066: Object073
+    400068: Object074
+    400070: Object075
+    400072: wheel_Detached002
+    400074: wheel_Detached003
+    400076: wheel_Detached004
+    400078: wheel_Detached01
+    2300000: Object015
+    2300002: Object021
+    2300004: Object022
+    2300006: Object023
+    2300008: Object024
+    2300010: Object025
+    2300012: Object038
+    2300014: Object039
+    2300016: Object040
+    2300018: Object041
+    2300020: Object042
+    2300022: Object043
+    2300024: Object044
+    2300026: Plane003
+    2300028: glass
+    2300030: light
+    2300032: mirror
+    2300034: Object055
+    2300036: Object067
+    2300038: tube
+    2300040: wheel
+    2300042: wheel 2
+    2300044: Object039_Detached003
+    2300046: Object039_Detached004
+    2300048: Object039_Detached005
+    2300050: Object039_Detached02
+    2300052: Object068
+    2300054: Object069
+    2300056: Object070
+    2300058: Object071
+    2300060: Object072
+    2300062: Object073
+    2300064: Object074
+    2300066: Object075
+    2300068: wheel_Detached002
+    2300070: wheel_Detached003
+    2300072: wheel_Detached004
+    2300074: wheel_Detached01
+    3300000: Object015
+    3300002: Object021
+    3300004: Object022
+    3300006: Object023
+    3300008: Object024
+    3300010: Object025
+    3300012: Object038
+    3300014: Object039
+    3300016: Object040
+    3300018: Object041
+    3300020: Object042
+    3300022: Object043
+    3300024: Object044
+    3300026: Plane003
+    3300028: glass
+    3300030: light
+    3300032: mirror
+    3300034: Object055
+    3300036: Object067
+    3300038: tube
+    3300040: wheel
+    3300042: wheel 2
+    3300044: Object039_Detached003
+    3300046: Object039_Detached004
+    3300048: Object039_Detached005
+    3300050: Object039_Detached02
+    3300052: Object068
+    3300054: Object069
+    3300056: Object070
+    3300058: Object071
+    3300060: Object072
+    3300062: Object073
+    3300064: Object074
+    3300066: Object075
+    3300068: wheel_Detached002
+    3300070: wheel_Detached003
+    3300072: wheel_Detached004
+    3300074: wheel_Detached01
+    4300000: Plane003
+    4300002: Object022
+    4300004: Object023
+    4300006: Object024
+    4300008: Object025
+    4300010: Object015
+    4300012: Object021
+    4300014: Object038
+    4300016: Object039
+    4300018: Object040
+    4300020: Object041
+    4300022: Object042
+    4300024: Object043
+    4300026: Object044
+    4300028: Object055
+    4300030: light
+    4300032: glass
+    4300034: Object067
+    4300036: tube
+    4300038: mirror
+    4300040: wheel
+    4300042: wheel 2
+    4300044: Object068
+    4300046: Object039_Detached02
+    4300048: Object069
+    4300050: wheel_Detached01
+    4300052: wheel_Detached002
+    4300054: Object070
+    4300056: Object039_Detached003
+    4300058: Object071
+    4300060: wheel_Detached003
+    4300062: Object072
+    4300064: Object039_Detached004
+    4300066: Object073
+    4300068: wheel_Detached004
+    4300070: Object074
+    4300072: Object039_Detached005
+    4300074: Object075
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

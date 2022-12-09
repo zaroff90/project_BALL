@@ -8,6 +8,10 @@ namespace Cooldhands.UICursor.Example
     public class CursorController : UICursorBehaviour
     {
         public Animator m_animator;
+        private void OnEnable()
+        {
+            GameObject.Find("EventSystem").GetComponent<UICursorCustomInputSystem>().m_cursor = this;
+        }
         public override void OnClickableElementChanged(){
             if(m_animator != null && m_animator.isActiveAndEnabled)
             {
@@ -20,6 +24,10 @@ namespace Cooldhands.UICursor.Example
             {
                 m_animator.SetTrigger("Click");
             }
+        }
+        private void Update()
+        {
+
         }
     }
 }

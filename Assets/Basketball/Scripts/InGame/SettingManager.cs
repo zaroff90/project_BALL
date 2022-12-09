@@ -337,6 +337,13 @@ public class SettingManager : MonoBehaviour
 
                     SaveAndStart();
                 }
+                else if (hit.collider.gameObject.name.Contains("MenuOnlineBtn"))
+                {
+                    tran = hit.transform;
+                    AnimDown();
+
+                    SaveAndStartOnline();
+                }
             }
         }
 
@@ -384,5 +391,11 @@ public class SettingManager : MonoBehaviour
         SaveSetting();
 
         SceneManager.LoadScene("Game");
+    }
+    void SaveAndStartOnline()
+    {
+        SaveSetting();
+
+        SceneManager.LoadScene("Lobby");
     }
 }

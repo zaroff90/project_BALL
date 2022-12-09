@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<car>
+
+	<!-- ENGINE  SETTINGS -->
+	
+	<!-- units: Nm (flaot) at rpm (int) -->
+	<torgue max_value = "249" rpm = "4000" ></torgue>
+	<!-- units: Hp (float) at rpm (int) -->
+	<horsepower max_value = "182" rpm = "4400"></horsepower>
+	
+	<torgue_curve_correction auto = "true">
+		<poin torgue = "120" rpm = "1000"></poin>
+	</torgue_curve_correction>
+	
+	
+	<!-- GEARBOX  SETTINGS -->
+	<gearbox final_drive = "3.6255"  max_rpm = "8000">
+		<gear val = "3.615" /> 
+		<gear val = "1.955" /> 
+		<gear val = "1.281" /> 
+		<gear val = "0.973" /> 
+		<gear val = "0.778" /> 
+		<gear val = "0.646" />
+	</gearbox>
+	
+	
+	<!-- OTHER  SETTINGS -->
+	
+	<!-- units: val:  kg(float)  drive_wheels_whaights_percents:  %(int) -->
+	<weight val = "1290" drive_wheels_whaights_percents = "50" /> 
+	<!-- units: radius: meters (float)-, grip: points (float)- -->
+	<tiers radius = "0.24" grip = "1"/>
+	<!-- boost: pots (float)-->
+	<settings boost="1.5"> </settings>
+	
+</car>

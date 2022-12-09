@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: c558498bf05364460ae30c006524a4d0
+timeCreated: 1456578933
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back light
+    100002: black plastic
+    100004: body
+    100006: break
+    100008: //RootNode
+    100010: glass
+    100012: lidht
+    100014: logo
+    100016: rims
+    100018: rims 1
+    100020: rims 2
+    100022: rims 3
+    100024: tube
+    100026: wheel
+    100028: wheel 1
+    100030: wheel 2
+    100032: wheel 3
+    100034: body001
+    100036: glass001
+    100038: mirror
+    100040: break_Detached010
+    100042: break_Detached011
+    100044: break_Detached012
+    100046: break_Detached013
+    100048: Object001
+    100050: Object002
+    100052: Object003
+    100054: Object004
+    100056: rims001
+    100058: rims002
+    100060: rims003
+    100062: wheel001
+    100064: wheel002
+    100066: wheel003
+    400000: back light
+    400002: black plastic
+    400004: body
+    400006: break
+    400008: //RootNode
+    400010: glass
+    400012: lidht
+    400014: logo
+    400016: rims
+    400018: rims 1
+    400020: rims 2
+    400022: rims 3
+    400024: tube
+    400026: wheel
+    400028: wheel 1
+    400030: wheel 2
+    400032: wheel 3
+    400034: body001
+    400036: glass001
+    400038: mirror
+    400040: break_Detached010
+    400042: break_Detached011
+    400044: break_Detached012
+    400046: break_Detached013
+    400048: Object001
+    400050: Object002
+    400052: Object003
+    400054: Object004
+    400056: rims001
+    400058: rims002
+    400060: rims003
+    400062: wheel001
+    400064: wheel002
+    400066: wheel003
+    2300000: back light
+    2300002: black plastic
+    2300004: body
+    2300006: break
+    2300008: glass
+    2300010: lidht
+    2300012: logo
+    2300014: rims
+    2300016: rims 1
+    2300018: rims 2
+    2300020: rims 3
+    2300022: tube
+    2300024: wheel
+    2300026: wheel 1
+    2300028: wheel 2
+    2300030: wheel 3
+    2300032: body001
+    2300034: glass001
+    2300036: mirror
+    2300038: break_Detached010
+    2300040: break_Detached011
+    2300042: break_Detached012
+    2300044: break_Detached013
+    2300046: Object001
+    2300048: Object002
+    2300050: Object003
+    2300052: Object004
+    2300054: rims001
+    2300056: rims002
+    2300058: rims003
+    2300060: wheel001
+    2300062: wheel002
+    2300064: wheel003
+    3300000: back light
+    3300002: black plastic
+    3300004: body
+    3300006: break
+    3300008: glass
+    3300010: lidht
+    3300012: logo
+    3300014: rims
+    3300016: rims 1
+    3300018: rims 2
+    3300020: rims 3
+    3300022: tube
+    3300024: wheel
+    3300026: wheel 1
+    3300028: wheel 2
+    3300030: wheel 3
+    3300032: body001
+    3300034: glass001
+    3300036: mirror
+    3300038: break_Detached010
+    3300040: break_Detached011
+    3300042: break_Detached012
+    3300044: break_Detached013
+    3300046: Object001
+    3300048: Object002
+    3300050: Object003
+    3300052: Object004
+    3300054: rims001
+    3300056: rims002
+    3300058: rims003
+    3300060: wheel001
+    3300062: wheel002
+    3300064: wheel003
+    4300000: rims
+    4300002: tube
+    4300004: wheel
+    4300006: rims
+    4300008: wheel
+    4300010: rims
+    4300012: wheel
+    4300014: rims
+    4300016: wheel
+    4300018: break
+    4300020: logo
+    4300022: glass
+    4300024: lidht
+    4300026: black plastic
+    4300028: body
+    4300030: back light
+    4300032: glass001
+    4300034: body001
+    4300036: mirror
+    4300038: break_Detached010
+    4300040: Object001
+    4300042: break_Detached011
+    4300044: rims001
+    4300046: Object002
+    4300048: wheel001
+    4300050: Object003
+    4300052: wheel002
+    4300054: rims002
+    4300056: break_Detached012
+    4300058: Object004
+    4300060: wheel003
+    4300062: rims003
+    4300064: break_Detached013
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 7
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

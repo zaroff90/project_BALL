@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerScripts : MonoBehaviour
+using Photon.Pun;
+using Photon.Realtime;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
+
+public class PlayerScripts : MonoBehaviourPunCallbacks
 {
     private Transform ball;
 
@@ -47,6 +51,10 @@ public class PlayerScripts : MonoBehaviour
         _controller = GetComponent<CharacterController2D>();
         ball = GameObject.FindGameObjectWithTag("Ball").transform;
         gm = FindObjectOfType<GameManager>();
+        if (PhotonNetwork.IsConnected)
+        {
+            isAi = false;
+        }
     }
 
     void Start()
@@ -141,23 +149,43 @@ public class PlayerScripts : MonoBehaviour
                             {
                                 if (hit.collider.gameObject.name.Contains("RightBtn"))
                                 {
+                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+                                    {
+                                        return;
+                                    }
                                     MoveRight();
                                 }
                                 else if (hit.collider.gameObject.name.Contains("LeftBtn"))
                                 {
+                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+                                    {
+                                        return;
+                                    }
                                     MoveLeft();
                                 }
                                 else
                                 {
+                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+                                    {
+                                        return;
+                                    }
                                     Stay();
                                 }
 
                                 if (hit.collider.gameObject.name.Contains("JumpBtn"))
                                 {
+                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+                                    {
+                                        return;
+                                    }
                                     Jump();
                                 }
                                 if (hit.collider.gameObject.name.Contains("ActionBtn") && gm.gameMode != GameMode.END)
                                 {
+                                    if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+                                    {
+                                        return;
+                                    }
                                     Action();
                                 }
                             }
