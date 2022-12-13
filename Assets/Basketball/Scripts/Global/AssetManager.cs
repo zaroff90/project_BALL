@@ -16,6 +16,8 @@ public class AssetManager : MonoBehaviour
     public int[] timesArray;
     public Sprite[] aiLevelSprites;
 
+    public Sprite[] shopHead0, shopHead1, shopJerseys, shopShoes, shopBalls, shopCourt, shopIconCourt;
+
     /// In Game
     public Sprite[] standsSprites;
 
@@ -55,6 +57,12 @@ public class AssetManager : MonoBehaviour
     void Init()
     {
         SetMusicVolume();
+
+        global.dlcHead1 = PlayerPrefs.GetInt("dlcHead1", 0);
+        global.dlcJersey1 = PlayerPrefs.GetInt("dlcJersey1", 0);
+        global.dlcShoes1 = PlayerPrefs.GetInt("dlcShoes1", 0);
+        global.dlcBalls1 = PlayerPrefs.GetInt("dlcBalls1", 0);
+        global.dlcCourt1 = PlayerPrefs.GetInt("dlcCourt1", 0);
     }
 
     public void SetMusicVolume()
