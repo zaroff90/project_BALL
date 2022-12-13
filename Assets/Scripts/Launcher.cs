@@ -120,6 +120,19 @@ namespace RGSK
 
         public override void OnJoinedRoom()
         {
+
+            Hashtable hashNumber = new Hashtable();
+            hashNumber.Add("Player", PlayerPrefs.GetInt(VariablesName.PlayerNumber, 0));
+            PhotonNetwork.LocalPlayer.SetCustomProperties(hashNumber);
+
+            Hashtable hashBody = new Hashtable();
+            hashBody.Add("Body", PlayerPrefs.GetInt(VariablesName.PlayerBodyNumber, 0));
+            PhotonNetwork.LocalPlayer.SetCustomProperties(hashBody);
+
+            Hashtable hashShoes = new Hashtable();
+            hashShoes.Add("Shoes", PlayerPrefs.GetInt(VariablesName.ShoesNumber, 0));
+            PhotonNetwork.LocalPlayer.SetCustomProperties(hashShoes);
+
             roomPanel.SetActive(true);
             /* player properties
             Hashtable hashCar = new Hashtable();
@@ -152,7 +165,6 @@ namespace RGSK
 
             for (int i = 1; i <= PhotonNetwork.CurrentRoom.PlayerCount; i++)
             {
-                //pass info to tag
                 GameObject entry = Instantiate(playerEntry);
                 entry.transform.parent = playerEntry.transform.parent;
                 entry.transform.GetChild(1).GetComponent<Text>().text = (string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + i)).NickName;
